@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Reef Frags Aquatic</title>
+
+  <!-- This meta viewport ensures the webpage's dimensions change according to the device it's on. This is called Responsive Web Design.-->
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is online store app" />
+
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#181818" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f3f3f3" />
+
+  <!-- These meta tags are Apple-specific, and set the web application to run in full-screen mode with a black status bar. Learn more at https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Reef Frags Aquatic" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <!-- Facebook metadata -->
+  <meta property="og:image:width" content="279">
+  <meta property="og:image:height" content="279">
+  <meta property="og:title" content="Reef Frags Aquatic">
+  <meta property="og:description" content="Your online corals store">
+  <meta property="og:url" content="https://hdez41.github.io/Reef-Frags-Aquatic/">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/Hdez41/Reef-Frags-Aquatic/main/public/assets/icons/og-image.jpg">
+
+  <!-- Imports an icon to represent the document. -->
+  <link rel="apple-touch-icon" sizes="180x180" href="public/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/assets/icons/favicon-32x32.png">
+  <link rel="mask-icon" href="public/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="public/assets/icons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
+  <link rel="manifest" href="public/manifest.json" />
+
+  <!-- light mode and dark mode CSS -->
+  <link rel="stylesheet" media="(prefers-color-scheme:light)"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/light.css">
+  <link rel="stylesheet" media="(prefers-color-scheme:dark)"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/dark.css"
+    onload="document.documentElement.classList.add('sl-theme-dark');">
+
+  <!-- .stellarnav required -->
+  <link rel="stylesheet" type="text/css" media="all" href="src/styles/stellarnav.css">
+  <link rel="stylesheet" type="text/css" media="all" href="src/styles/appstyle.css">
+  <script type="module" href="/src/app-index.ts"></script>
+  <!-- .stellarnav required -->
+</head>
+
+<body>
+  <!-- Our app-index web component. This component is defined in src/pages/app-index.ts-->
+  <app-index></app-index>
+  <!-- .header -->
+  <div class="header">
+    <a href="#">Reef Frags Aquatic</a>
+    <p>Your online corals store</p>
+  </div>
+
+  <!-- .stellarnav -->
+  <div class="stellarnav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="CoralCare.html">Coral Care</a></li>
+      <!--<li><a href="contactus.html">Contactus</a></li>-->
+      <!-- <li><a href="">Item 5</a></li>
+			<li><a href="">Item 6</a></li>
+			<li class="drop-left"><a href="">Drop Left</a>
+				<ul>
+					<li><a href="#">How deep?</a>
+						<ul>
+							<li><a href="#">Deep</a>
+								<ul>
+									<li><a href="#">Even deeper</a>
+										<ul>
+											<li><a href="#">Item</a></li>
+											<li><a href="#">Item</a></li>
+											<li><a href="#">Item</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Item</a></li>
+					<li><a href="#">Item</a></li>
+					<li><a href="#">Item</a></li>
+					<li><a href="#">Item</a></li>
+				</ul>
+			</li>-->
+    </ul>
+  </div>
+
+  <!-- .my body -->
+  <div class="containera">
+    <h2 class="section-header" id="section-header">
+      About</h2>
+    <div class="slider">
+      <ul>
+        <li>
+          <img src="public/assets/img/product-1.webp" alt="">
+        </li>
+        <li>
+          <img src="public/assets/img/product-5.webp" alt="">
+        </li>
+        <li>
+          <img src="public/assets/img/product-3.webp" alt="">
+        </li>
+        <li>
+          <img src="public/assets/img/product-14.webp" alt="">
+        </li>
+      </ul>
+    </div>
+    <div class="content2">
+      <p>We are Reef Frags Aquatic, a treasure cove for all salt water hobbyist dealing the most addictive stuff!
+        We always dedicate ourselves to providing high quality corals! </p><br>
+      <p>We source from unique and rare selections around the world and always provide the best deals for our
+        fellow brothers and sisters who can't get enough of the reefer-high!</p><br>
+      <p> Contact with questions and thoughts at serama2931@gmail.com</p>
+    </div>
+  </div>
+
+  <footer class="main-footer">
+    <div class="container main-footer-container">
+      <h3 class="footer-band-name">Follow us, or text us</h3>
+      <ul class="nav footer-nav">
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <img title="social" src="public/assets/img/instagram.webp">
+            <span class="footer-item-title">Instagram
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank">
+            <img title="social" src="public/assets/img/facebook.webp">
+            <span class="footer-item-title">Facebook
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.link/0a6bkn" target="_blank">
+            <img title="social" src="public/assets/img/whatsApp.webp">
+            <span class="footer-item-title">WhatsApp
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <!-- required -->
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script type="text/javascript" src="public/stellarnav.min.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      jQuery('.stellarnav').stellarNav({
+        theme: 'dark',
+        breakpoint: 960,
+        position: 'right',
+        phoneBtn: '18009997788',
+        locationBtn: 'https://www.google.com/maps'
+      });
+    });
+  </script>
+  <!-- required -->
+  <!-- SW -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register(
+        '/Reef-Frags-Aquatic/sw.js',
+        { scope: '/Reef-Frags-Aquatic/' }
+      );
+    }
+  </script>
+  <!-- SW -->
+</body>
+
+</html>
