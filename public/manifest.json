@@ -1,17 +1,22 @@
 {
-  "id": "/",
-  "scope": "/",
-  "name": "PWA Starter",
+  "id": "Reef1",
+  "scope": "Reef-Frags-Aquatic/",
+  "name": "Reef Frags Aquatic",
+  "display_override": [
+    "window-controls-overlay",
+    "minimal-ui"
+  ],
   "display": "standalone",
-  "start_url": "/",
-  "short_name": "starter",
-  "theme_color": "#E1477E",
-  "description": "This is a PWA Starter app",
+  "start_url": "/Reef-Frags-Aquatic/",
+  "short_name": "Reef-Frags",
+  "theme_color": "#010101",
+  "description": "Your online corals store",
   "orientation": "any",
-  "background_color": "#E1477E",
+  "background_color": "#f76a05",
   "related_applications": [],
+  "dir": "ltr",
+  "lang": "en",
   "prefer_related_applications": false,
-  "display_override": ["window-controls-overlay"],
   "icons": [
     {
       "src": "assets/icons/512x512.png",
@@ -36,9 +41,24 @@
   ],
   "screenshots": [
     {
-      "src": "assets/screenshots/screen.png",
-      "sizes": "1617x1012",
-      "type": "image/png"
+      "src": "assets/screenshots/s1.webp",
+      "sizes": "1280x800",
+      "type": "image/webp"
+    },
+    {
+      "src": "assets/screenshots/s2.webp",
+      "sizes": "480x800",
+      "type": "image/webp"
+    },
+    {
+      "src": "assets/screenshots/s3.webp",
+      "sizes": "800x1280",
+      "type": "image/webp"
+    },
+    {
+      "src": "assets/screenshots/s4.webp",
+      "sizes": "1024x768",
+      "type": "image/webp"
     }
   ],
   "features": [
@@ -47,15 +67,41 @@
     "simple"
   ],
   "categories": [
-    "utility"
+    "education",
+    "security"
   ],
   "shortcuts": [
     {
-      "name": "Open About",
-      "short_name": "About",
-      "description": "Open the about page",
-      "url": "/about",
-      "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
+      "name": "Reef-Frags-Aquatic",
+      "short_name": "Reef Frags",
+      "description": "Your online corals store",
+      "url": "https://hdez41.github.io/Reef-Frags-Aquatic/",
+      "icons": [
+        {
+          "src": "assets/icons/icon_192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
-  ]
+  ],
+  "share_target": {
+    "action": "decision.php",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "Reef Frags Aquatic",
+      "text": "Your online corals store",
+      "url": "https://hdez41.github.io/Reef-Frags-Aquatic//",
+      "files": [
+        {
+          "name": "Reef Frags Aquatic",
+          "accept": [
+            ".html",
+            ".mhtml",
+            ".htm"
+          ]
+        }
+      ]
+    }
+  }
 }
