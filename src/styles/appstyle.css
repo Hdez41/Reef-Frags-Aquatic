@@ -254,11 +254,11 @@ p {
 
 /* footer */
 img.logo {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: bottom;
-}
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+  }
 
   @media only screen and (max-width : 1000px) {
     .footer img {
@@ -372,4 +372,24 @@ ul.nav.footer-nav {
     100% {
         margin-left: -300%;
     }
+}
+
+/*-- Top arow button on style --*/
+.button a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background: #ff7b00;
+    padding: 7px 12px;;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+  }
+
+  .button a:hover {
+    background-color: #410101;
+    box-shadow: 0 2px 0 #720101;
+    box-shadow: 0 6px 0 #0e1a18;
+    background: linear-gradient(-135deg, #f76a05, #000000);
 }
