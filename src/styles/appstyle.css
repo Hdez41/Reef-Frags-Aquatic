@@ -254,11 +254,11 @@ p {
 
 /* footer */
 img.logo {
-    width: 100%;
-    object-fit: cover;
-    object-position: bottom;
-    min-height: 100px;
-  }
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+}
 
   @media only screen and (max-width : 1000px) {
     .footer img {
