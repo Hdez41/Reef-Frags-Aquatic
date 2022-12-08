@@ -9,14 +9,25 @@
 .header {
     text-align: center;
     color: white;
-    background: #000000;
     align-items: center;
     justify-items: center;
     line-height: 1.3;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
+}
+
+img.logo {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    min-height: 100px;
+  }
+
+  @media only screen and (max-width : 1000px) {
+    .header img {
+        width: 100%;
+    }
 }
 
 .header a {
@@ -242,6 +253,18 @@ p {
 }
 
 /* footer */
+img.logo {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    min-height: 100px;
+  }
+
+  @media only screen and (max-width : 1000px) {
+    .footer img {
+        width: 100%;
+    }
+}
 
 .footer-band-name {
     text-align: center;
