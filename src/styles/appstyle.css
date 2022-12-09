@@ -51,7 +51,8 @@ img.logo {
     object-fit: cover;
     object-position: bottom;
     min-width: 275px;
-    border-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
   }
 
 .header a {
