@@ -30,13 +30,34 @@ img.logo {
     }
 }
 
+  .contheder {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+  @media only screen and (max-width : 1000px) {
+    .contheder {
+        width: 100%;
+    }
+}
+
+img.headerslogo {
+    max-width: 50%;
+    padding: 20px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
 .header a {
-    padding: 30px 0 0;
     display: block;
     font-size: 48px;
     text-decoration: none;
     color: white;
-    margin-top: 40px;
 }
 
 .header p {
@@ -134,7 +155,7 @@ body {
     text-align: center;
     font-size: 24px;
     color: #fff;
-    background: linear-gradient(-135deg, #010101, #f76a05);
+    background: linear-gradient(-135deg, #010101, orangered);
     box-shadow: 0 0 3px 1px;
     margin-right: auto;
     margin-left: auto;
@@ -151,13 +172,44 @@ body {
     align-content: center;
     flex-wrap: nowrap;
     padding: 10px;
-  }
+}
 
 #section-header:hover {
     background-color: #410101;
     box-shadow: 0 2px 0 #720101;
     box-shadow: 0 6px 0 #0e1a18;
-    background: linear-gradient(-135deg, #f76a05, #000000);
+    background: linear-gradient(-135deg, orangered, #000000);
+}
+
+#section-header2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background: linear-gradient(-135deg,orangered, #010101 );
+    box-shadow: 0 0 3px 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+    max-width: 100%;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+#section-header2:hover {
+    background-color: #410101;
+    box-shadow: 0 2px 0 #720101;
+    box-shadow: 0 6px 0 #0e1a18;
+    background: linear-gradient(-135deg, #000000, orangered);
 }
 
 p {
