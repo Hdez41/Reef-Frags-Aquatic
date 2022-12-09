@@ -51,6 +51,7 @@ img.headerslogo {
     padding: 20px;
     object-fit: cover;
     object-position: bottom;
+    min-width: 300px;
 }
 
 .header a {
