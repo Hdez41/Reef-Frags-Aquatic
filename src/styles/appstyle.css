@@ -45,14 +45,13 @@ img.logo {
         width: 100%;
     }
 }
-
-img.headerslogo {
+.headerslogo {
     max-width: 60%;
-    padding-top: 20px;
+    padding-top: 40px;
     object-fit: cover;
     object-position: bottom;
     min-width: 275px;
-    border-radius: 70px;
+    border-radius: 20px;
   }
 
 .header a {
