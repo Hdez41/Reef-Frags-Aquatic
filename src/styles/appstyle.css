@@ -73,6 +73,11 @@ img.logo {
     }
 }
 
+.cartbutton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
 
 /*--body--*/
 
