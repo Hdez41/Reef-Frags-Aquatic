@@ -1,6 +1,6 @@
 {
   "id": "Reef1",
-  "scope": "Reef-Frags-Aquatic/",
+  "scope": "/Reef-Frags-Aquatic/",
   "name": "Reef Frags Aquatic",
   "display_override": [
     "window-controls-overlay",
@@ -104,7 +104,7 @@
     "params": {
       "title": "Reef Frags Aquatic",
       "text": "Your online corals store",
-      "url": "https://hdez41.github.io/Reef-Frags-Aquatic//",
+      "url": "https://hdez41.github.io/Reef-Frags-Aquatic/",
       "files": [
         {
           "name": "Reef Frags Aquatic",
